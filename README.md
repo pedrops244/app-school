@@ -1,3 +1,3 @@
-## App-School
+## React template
 
-Application to simulate a school.
+I created a basic template to automate my time when starting a project.
