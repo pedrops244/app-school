@@ -7,12 +7,12 @@ import Login from '../pages/Login';
 import Page404 from '../pages/Page404';
 
 export default function Routes() {
-  toast.success('Eu uso um ID personalizado', {
-    toastId: 'sucessId',
-  });
-  toast.error('Eu uso um ID personalizado', {
-    toastId: 'errorId',
-  });
+  // toast.success('Eu uso um ID personalizado', {
+  //   toastId: 'sucessId',
+  // });
+  // toast.error('Eu uso um ID personalizado', {
+  //   toastId: 'errorId',
+  // });
   return (
     <Switch>
       <MyRoute exact path='/' component={Login} isClosed />
